@@ -2,7 +2,7 @@ FROM python:3.10
 
 WORKDIR /app
 
-COPY requirements.txt /app
+COPY web-django/django_web_app/requirements.txt /app
 
 RUN pip install -r requirements.txt
 
